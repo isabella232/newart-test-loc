@@ -1,0 +1,55 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.svg",
+          "**/includes/media/**"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/*.md"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {
+      "contributors_to_exclude": [
+        "openpublishingbuild",
+        "sudeepku",
+        "v-thepet"
+      ],
+      "titleSuffix": "New Art Test"
+      },
+    "fileMetadata": {
+          "featureFlags": {
+              "**/*.md": [
+                 "show_binary_rating"
+              ]
+          }
+    },
+    "template": [],
+    "dest": "new-art-loc",
+    "markdownEngineName": "markdig"
+  }
+}
