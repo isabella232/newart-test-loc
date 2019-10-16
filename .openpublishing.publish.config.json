@@ -1,7 +1,7 @@
 {
   "docsets_to_publish": [
     {
-      "docset_name": "newart-test-loc",
+      "docset_name": "npowerbi-docs",
       "build_source_folder": "powerbi-docs",
       "build_output_subfolder": "newart-test-loc",
       "locale": "en-us",
